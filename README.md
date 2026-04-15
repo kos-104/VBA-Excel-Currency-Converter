@@ -4,7 +4,7 @@ The form seeks to be intuitive, allowing users to launch the form quickly and ac
 
 Many API calls are used, including some that enable the form to be positioned on any cell worksheet and others enabling the user to adjust the size of the userform (along with it controls).
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-In the 2nd version (Currency Converter Rebuild 2.3), we've increased the sophistication of the design. We have removed the ability to (1) resize the form and, (2) make the form appear at any cell upon user click, to make performance noticeably faster.
+In the 2nd version (Currency Converter Rebuild 2.3), we've increased the sophistication of the design. We have removed the ability to (1) resize the form, and, (2) make the form appear at any cell upon user click, to make performance noticeably faster.
 
 Dictionaries are utilized to enhance performance and manage information, allowing for faster lookups and easy array output while minimizing range calls to the worksheet.
 
