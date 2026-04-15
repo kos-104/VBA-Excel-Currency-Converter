@@ -2,7 +2,7 @@ This Excel Currency Converter, developed with VBA, is designed to process and re
 
 The form seeks to be intuitive, allowing users to launch the form quickly and access scrollable currency dropdown-menus with varied sorting options. It also includes an expandable/collapsible interactive calendar for selecting dates and tools for analyzing currency trends over the last 30 days. Users get real-time feedback with the form, and can cancel a process and/or get partial results where available. 
 
-Many API calls are used, including some that enable the form to be positioned on any cell worksheet and others enabling the user to adjust the size of the userform (along with it controls).
+Many API calls are used, including some that enable the form to be positioned on any cell worksheet, and others enabling the user to adjust the size of the userform (along with it controls).
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 In the 2nd version (Currency Converter Rebuild 2.3), we've increased the sophistication of the design. We have removed the ability to (1) resize the form, and, (2) make the form appear at any cell upon user click, to make performance noticeably faster.
 
