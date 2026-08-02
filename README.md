@@ -4,7 +4,7 @@ It features complex event handling and event-trapping to ensure smooth communica
 
 The form seeks to be intuitive, allowing users to launch it quickly and access scrollable currency dropdown-menus with varied sorting options. A collapsible interactive calendar permits users to select dates for analyzing currency trends over the last 30 days. Users get real-time feedback with the form and can cancel a process and/or get partial results where available.
 
-Many API calls are used, including some that can position the form on any worksheet cell, and others that enable the user to resize the userform and its controls.
+Many API calls are utilized, including some that can position the form on any worksheet cell, and others that enable the user to resize the userform and its controls.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 In the 2nd version (Currency Converter Rebuild 2.3), we've increased the efficiency of the design.
 
