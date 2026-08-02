@@ -1,6 +1,6 @@
 This Excel Currency Converter (developed with VBA) returns currency information online.
 
-It features complex event handling and event-trapping to ensure smooth communication between program components. Class modules help keep the code organized and encapsulated, within an object-oriented approach. Robust error-handling also captures expected and <most> unexpected slips.
+It features complex event handling and event-trapping to ensure smooth communication between program components. Class modules help keep the code organized and encapsulated, within an object-oriented approach. Robust error-handling also captures expected and [most] unexpected slips.
 
 The form seeks to be intuitive, allowing users to launch it quickly and access scrollable currency dropdown-menus with varied sorting options. A collapsible interactive calendar permits users to select dates for analyzing currency trends over the last 30 days. Users get real-time feedback with the form and can cancel a process and/or get partial results where available.
 
