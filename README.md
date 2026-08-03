@@ -14,6 +14,6 @@ This version provides greater demonstrations of encapsulation, refactoring, and 
 
 The latest version’s procedures are more focused, simplifying testing and reuse; versus the original which combined larger responsibilities within single procedures, thereby complicating maintenance.
 
-The event-handling protocol has shifted from WithEvents objects to Custom event objects, increasing flexibility by decoupling event sources from their handlers. This version makes greater use of certain OOP (object-oriented-principles) techniques through abstraction and classification, with class modules and custom types encapsulating data and behavior. It also leverages properties instead of public variables to support data hiding, validation, data integrity, and control.
+The event-handling protocol has shifted from WithEvents objects to Custom event objects, increasing flexibility by decoupling event sources from their handlers. This version makes greater use of certain OOP (object-oriented-principles) techniques through abstraction and classification, with class modules and custom types encapsulating data and behavior. It also deploys properties instead of public variables to support data hiding, validation, data integrity, and control.
 
 The current version also implements many code-optimizing suggestions provided by the Rubberduck VBA add-in.
