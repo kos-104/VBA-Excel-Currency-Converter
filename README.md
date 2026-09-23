@@ -43,7 +43,7 @@ Many API calls are utilized, including some that can position the form on any wo
 - Employed reasonable modularity, but relied more heavily on **global variables**, increasing coupling between components
 - Combined larger responsibilities within single procedures, which complicated testing and maintenance
 - Used **WithEvents objects** for event handling
-- Relied on public variables for data access rather than properties
+- Public variables provided direct access to data, with less emphasis placed on validation logic
 
 ### 🔹 Version 2.3 (Rebuild)
 
