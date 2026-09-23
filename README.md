@@ -6,16 +6,32 @@
 ![Excel](https://img.shields.io/badge/Platform-Excel-217346.svg)
 ![OOP](https://img.shields.io/badge/Design-OOP-orange.svg)
 ![API](https://img.shields.io/badge/Feature-Live%20API%20Data-brightgreen.svg)
+![Internet](https://img.shields.io/badge/Requires-Internet%20Connection-yellow.svg)
 
 ## Description
 
 This Excel Currency Converter (developed with VBA) returns currency information online.
 
-It features complex event handling and event-trapping to ensure smooth communication between program components. Class modules help keep the code organized and encapsulated, within an object-oriented approach. Robust error-handling also captures expected and [most] unexpected slips.
+It features complex event handling and event-trapping to ensure smooth communication between program components. Class modules help keep the code organized and encapsulated, within an object-oriented approach. Robust error-handling also captures expected and — mostly — unexpected slips.
 
 The form seeks to be intuitive, allowing users to launch it quickly and access scrollable currency dropdown-menus with varied sorting options. A collapsible interactive calendar permits users to select dates for analyzing currency trends over the last 30 days. Users get real-time feedback with the form and can cancel a process and/or get partial results where available.
 
 Many API calls are utilized, including some that can position the form on any worksheet cell, and others that enable the user to resize the userform and its controls.
+
+## Key Features
+
+**Currency Lookup**
+- Scrollable dropdown menus for selecting currencies, with multiple sorting options
+- Real-time data retrieval via live API calls
+- Cancel a running request at any time, with partial results returned where available
+
+**Trend Analysis**
+- Collapsible interactive calendar for selecting date ranges
+- View currency trends over the last 30 days
+
+**Form Behavior**
+- Userform can be positioned on any worksheet cell (Version 92) via API calls
+- Responsive, real-time feedback while data loads
 
 ---
 
@@ -55,3 +71,18 @@ In this version, we've increased the efficiency of the design:
 | Event Handling        | WithEvents objects             | Custom event objects                    |
 | OOP Usage             | Reasonable modularity           | Stronger abstraction & classification   |
 | Code Optimization     | —                               | Rubberduck VBA-guided improvements      |
+
+---
+
+## Requirements
+- Excel with macros enabled (developed and tested on Excel 365, 64-bit)
+- Internet connection required for live currency data retrieval
+- The following VBA References must be enabled (**Tools → References** in the VBA Editor):
+  - Microsoft Forms 2.0 Object Library
+  - Microsoft Scripting Runtime
+  - Microsoft HTML Object Library
+  - Microsoft Internet Controls
+
+## How to Use
+1. Open the provided `.xlsm` file
+2. Follow the on-screen instructions provided directly on the Excel sheet
