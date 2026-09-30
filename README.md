@@ -54,7 +54,7 @@ In this version, we've increased the efficiency of the design:
 - Greater use of **encapsulation, refactoring, and modularity**, with private variables and focused subroutines protecting internal states from outside dependencies
 - Procedures are more focused and single-purpose, simplifying testing and reuse
 - Event-handling shifted from **WithEvents objects to Custom event objects**, decoupling event sources from their handlers for greater flexibility
-- Expanded use of specific **OOP principles** — abstraction and classification via class modules and custom types encapsulate data and behavior
+- Expanded use of certain **OOP principles** — abstraction and classification via class modules and custom types encapsulate data and behavior
 - **Properties** replace public variables, supporting data hiding, validation, data integrity, and control
 - Implements numerous code-optimization suggestions provided by the **Rubberduck VBA add-in**
 
